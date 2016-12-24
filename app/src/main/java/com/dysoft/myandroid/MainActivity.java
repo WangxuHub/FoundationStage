@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         public void handleMessage(Message msg) {
             startActivity(new Intent(MainActivity.this,LoginActivity.class));
             finish();
-        }
+        }//////
     };
 
     @Override
